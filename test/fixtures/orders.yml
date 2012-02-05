@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: Sakamoto
+  address: 1-5-3
+  email: sakamoto@a.com
+  pay_type:  "現金"
+
+two:
+  name: ito
+  address: MyText
+  email: ito@b.com
+  pay_type: "クレジットカード"

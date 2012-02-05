@@ -28,16 +28,21 @@ div {
     margin-bottom: 10px; } }
 
 #notice {
-  color: green; }
+  color: green;
+  background-color: #9c9;
+  padding: 15px;
+  border: 2px, dotted;
+  border-color: red;
+}
 
 .field_with_errors {
   padding: 2px;
-  background-color: #FFD700;
+  background-color: red;
   display: table; }
 
 #error_explanation {
   width: 450px;
-  border: 2px solid #FFD700;
+  border: 2px solid red;
   padding: 7px;
   padding-bottom: 0;
   margin-bottom: 20px;
@@ -49,7 +54,7 @@ div {
     font-size: 12px;
     margin: -7px;
     margin-bottom: 0px;
-    background-color: #FFD700;
+    background-color: #c00;
     color: #fff; }
   ul li {
     font-size: 12px;

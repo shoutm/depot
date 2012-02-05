@@ -1,0 +1,7 @@
+<% if @cart %>
+  $('#cart').html("<%=j render @cart %>");
+  $('#current_item').css({'background-color': '#88ff88',}).animate({'background-color':'#114411'},3000);
+<% else %>
+  $('#cart').css({"display":"none",});
+<% end %>
+

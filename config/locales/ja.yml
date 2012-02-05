@@ -1,0 +1,12 @@
+#encoding: utf-8
+ja:
+  layouts:
+    application:
+      title:      "書店"
+
+  store:
+    index:
+      MSG001:     "カートに入れる"
+
+  msg:
+    MSGE0001:   "ご注文ありがとうございました。"
