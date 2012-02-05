@@ -76,10 +76,11 @@ class LineItemsController < ApplicationController
   # DELETE /line_items/1.json
   def destroy
     @cart = current_cart
+
     product = Product.find(params[:id])
     @current_item = @cart.delete_product(product.id)
 
-    if @cart.line_items
+    if @cart.line_items.size == 0
       @cart.delete
       @cart = nil
     end
